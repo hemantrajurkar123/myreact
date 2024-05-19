@@ -1,0 +1,32 @@
+.recipient_div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.users_list{
+    border:1px solid black;
+    border-radius:5px;
+    margin: 0 auto;
+    padding:10px;
+    width:200px;
+
+}
+
+.selected_users{
+    border:1px solid black;
+    border-radius:5px;
+    margin: 10px auto 10px auto;
+    padding:10px;
+    width:500px;
+
+
+}
+.show_selected_users{
+    border:1px solid black;
+    border-radius:5px;
+    margin: 0 auto;
+    padding:10px;
+    width:200px;
+
+
+}
