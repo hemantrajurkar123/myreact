@@ -15,6 +15,11 @@ import UsersMain from "./newcomponents/usersMain";
 import UsersHome from "./usercomponents/UsersHome";
 import UserHomeNew from "./usercomponents-new/UserHomeNew";
 import BlogHome from "./blogcomponents/BlogHome";
+import Variables from "./typescript_tutorial/Variables";
+import TsFunctions from './typescript_tutorial/TsFunctions'
+import UserHome from "./user-components-practice/UserHome";
+import UserList from "./user-component-practice1/UserList";
+import UserList2 from "./user-components-practice2/UserList2";
 
 const UserDataContext = createContext();
 
@@ -52,7 +57,12 @@ const App = () => {
         {/* <UsersMain /> */}
         {/* <UsersHome /> */}
         {/* <UserHomeNew /> */}
-        <BlogHome />
+        {/* <BlogHome /> */}
+        {/* <Variables /> */}
+        {/*<TsFunctions /> */}
+        {/* <UserHome /> */}
+        {/* <UserList /> */}
+        <UserList2 />
       </div>
     // </UserDataContext.Provider>
   );
